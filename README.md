@@ -40,21 +40,7 @@ A simple spam detection web app built with Streamlit, using a trained text prepr
 - Keep `model.pkl` and `vectorizer.pkl` in the repo so the app can load them.
 - If using Hugging Face Spaces, add a `requirements.txt` file with the same dependencies.
 
-## GitHub deployment steps
 
-1. Initialize Git:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   ```
-2. Create a new repository on GitHub.
-3. Add the remote and push:
-   ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   git branch -M main
-   git push -u origin main
-   ```
 
 ## Author
 
